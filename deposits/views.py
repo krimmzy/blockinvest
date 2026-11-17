@@ -5,10 +5,10 @@ from .models import Deposit, SupportRequest
 @login_required
 def deposit_view(request):
 
-    btc_address = "bc1peq477ykl9a7qzups68pe3558690hzlek7vkc3m9ts2lwd29jgvmqsq9876"
-    eth_address = "0x09660579f617cf3fda3df6243c8d12213ce178af"
-    bnb_address = "0x09660579f617cf3fda3df6243c8d12213ce178af"
-    sol_address = "8WFy31SwjdM6Y3aewjUnCPR5MQHUB2aq2GmN9wjFS5wo"
+    btc_address = "bc1pwhk884ngmn6mx7uw2m9lnw0j968m800k3pdhn3wc850d6d4x0c5secdjj7"
+    eth_address = "0x1ded46a9a7e96a967fb1d686f0d13b14aeca0d3e"
+    bnb_address = "0x1ded46a9a7e96a967fb1d686f0d13b14aeca0d3e"
+    sol_address = "XKO1ded46a9a7e96a967fb1d686f0d13b14aeca0d3e"
 
     if request.method == 'POST':
 
